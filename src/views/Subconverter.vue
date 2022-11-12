@@ -462,7 +462,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "本地局域网版后端": "http://127.0.0.1:25500/sub?",
+          "本地局域网版后端": "https://backend.880219.xyz:39120/sub?",
           "肥羊增强型后端【vless+负载均衡】": "https://api.v1.mk/sub?",
           "肥羊备用后端【vless+负载均衡】": "https://sub.d1.mk/sub?",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one/sub?",
@@ -473,7 +473,7 @@ export default {
           "sub作者&lhie1提供": "https://api.dler.io/sub?",
         },
         backendOptions: [
-          {value: "http://127.0.0.1:25500/sub?"},
+          {value: "https://backend.880219.xyz:39120/sub?"},
           {value: "https://api.v1.mk/sub?"},
           {value: "https://sub.d1.mk/sub?"},
           {value: "https://api.tsutsu.one/sub?"},
